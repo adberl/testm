@@ -27,8 +27,7 @@ void do_test(testcase*, int, int);
 int get_total_digits(int);
 void print_tests(testcase*);
 
-int main(int argc, char* argv[]) 
-{
+int main(int argc, char* argv[]) {
 	if(argc != 3) {
 		printf("usage: %s <python_file> <commands_file>\n", argv[0]);
 		return -1;
