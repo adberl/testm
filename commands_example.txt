@@ -1,0 +1,3 @@
+2
+add_10_test f1 11 20
+power_test f2 2 4
